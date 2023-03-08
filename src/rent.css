@@ -1,0 +1,15 @@
+.rentinfo
+{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.rentbtn
+{
+    margin:10px;
+    width:10%;
+    height:30px;
+    background-color: yellow;
+    border:1px solid rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}

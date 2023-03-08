@@ -1,0 +1,44 @@
+.rentFormBlock
+{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Exo 2', sans-serif;
+    margin:20px;
+}
+
+table > tr > td {
+    padding:10px;
+}
+
+.selectBox
+{
+    width:350px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.selectBox:focus
+{
+    outline-color: rgb(20, 211, 154);
+}
+
+.txtnbgcolor:focus{
+    outline-color: rgb(20, 211, 154);
+}
+
+.rentformbtn
+{
+    width: 350px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(14, 112, 192);
+    color:#fff;
+    border:0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.rentformbtn:hover{
+    background-color: rgb(0,92,168);
+}

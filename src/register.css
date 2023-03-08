@@ -1,0 +1,141 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+
+.imgBlock
+{
+    width:700px;
+    height:500px;
+}
+.imgBlock img{
+    width:100%;
+    height:100%;
+}
+
+.registrationMainBlock
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 700px;
+}
+
+.regMainBlock
+{
+    width: 400px;
+}
+
+
+.regBlock 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo
+{
+    font-family: 'Righteous', cursive;
+    color:rgb(0,92,168);
+    font-style: normal;
+    font-size:30px;
+}
+
+.captions
+{
+    font-size: 12px;
+    font-family: 'Exo 2', sans-serif;
+    color:rgb(104, 106, 107);
+}
+
+input[type=text]
+{
+    width:350px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid rgb(180, 178, 178);    
+}
+
+input[type=password]
+{
+    width:350px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid rgb(180, 178, 178);    
+}
+
+input
+{
+    text-indent: 10px;
+}
+
+input[type=text]::placeholder
+{
+    padding-left: 10px;
+}
+
+input[type=text]::-ms-value
+{
+    padding-left: 10px;
+}
+
+.txtbgcolor:focus{
+    outline-color: rgb(0,92,168);
+}
+
+.regbtn
+{
+    width:350px;
+    height: 45px;
+    background-color: rgb(14, 112, 192) ;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.regbtn:hover{
+    background-color:rgb(0,92,168);
+    cursor: pointer;
+}
+
+.notify
+{
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+    margin:20px;
+}
+.loginlink
+{
+    color:black;
+    font-family: 'Cabin', sans-serif;
+    color:rgb(11, 11, 236);
+}
+.loginlink:hover
+{
+    color:rgb(11, 11, 236);
+    text-decoration: underline;
+
+}
+
+span{
+    color:rgb(236, 48, 48);
+    font-family: calibri;
+}
+
+/* CSS for displaying the footer block in bottom..... */
+
+/* .footerblock
+{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}  */
+

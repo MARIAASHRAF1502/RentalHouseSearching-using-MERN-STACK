@@ -1,0 +1,67 @@
+
+.footerBlock
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(4, 56, 95);
+  color:#fff;
+  height:100px;
+  font-family: 'Poppins', sans-serif;
+}
+.icons
+{
+  width:150px;
+  font-size:30px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  padding:20px;
+}
+
+.contactBlock
+{
+  width:210px;
+  display: inline-flex;
+  justify-content:end;
+  flex-direction:column;
+  padding:20px;
+  margin:10px;
+}
+
+.copyright
+{
+  color:#fff;
+  font-size: 12px;
+}
+
+.copyright:hover{
+  text-decoration: underline;
+}
+
+.contact
+{
+  font-size: 13px;
+}
+.contact:hover{
+  text-decoration: underline;
+}
+
+.value
+{
+  color:rgb(144, 151, 165);
+  font-weight: 400;
+}
+
+.twitter:hover
+{
+  color:rgb(0,182,241);
+}
+.facebook:hover
+{
+  color:rgb(23,115,234);
+}
+.instagram:hover
+{
+  color:rgb(191,45,153);
+}

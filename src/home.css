@@ -1,0 +1,106 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+
+.homeblock
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:80px;
+    margin-left: 150px;
+}
+
+.imageblock img
+{
+    width: 80%;
+    height:100%;
+    margin:50px;
+}
+
+.para
+{
+    background-color:#ffff;
+    width: 300%;
+    height: 100%;
+    font-family: 'Exo 2', sans-serif;
+    font-size:15px;
+    font-weight:510;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.message
+{
+    font-family: 'Raleway', sans-serif;
+    font-size:50px;
+    color:rgb(4, 109, 165);
+    margin:50px;
+}
+
+.optionblock
+{ 
+    display:flex;
+    justify-content:space-evenly;
+} 
+
+
+.optionblock1
+{
+    width: 250px;
+    height: 370px;
+    background-color: #fff;
+    font-family: 'Antic Slab', serif;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.optionblock2
+{
+    width: 250px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.959);
+    font-family: 'Antic Slab', serif;
+    padding:10px;
+}
+
+.optionblock1 img
+{
+    margin:40px 0 40px;
+    width: 250px;
+    height: 170px;
+    
+}
+
+.optionblock2 img
+{
+    margin-top:30px;
+    width: 250px;
+    height: 210px;    
+}
+
+.btnblock
+{
+    padding:10px;
+    margin:10px;
+}
+
+.btnblock{
+    background-color:rgb(0,92,168);
+    color:#ffff;
+    border-radius: 5px;
+    height: 25px;
+}
+
+
+.btnblock a:hover{
+    color:rgba(255, 255, 255, 0.678);
+}
+
+a{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
